@@ -5,7 +5,7 @@ These are the algorithms I created for MECH105 using different numerical methods
 ## Binary Converter
 This code converts a base10 number into a base2 number. The input is a simple base10 number, the output is a binary number string
 ### Code
-'function [base2] = binaryConverter(base10)
+' function [base2] = binaryConverter(base10)
 %binary A simple function to convert a base10 number to binary
 %   Inputs:
 %       base10 - A number in base10
@@ -22,7 +22,7 @@ while base10>0
     k=k+1
 end
 base2=flip(base2)
-end'
+end '
 ## False Postion 
 This algorithm uses the False postion numerical method to find the root of a given function and its two guesses
 ### Inputs:
@@ -38,7 +38,7 @@ fx - the function evaluated at the root location
 ea - the approximate relative error (%)
 iter - how many iterations were performed
 ### code 
-'function [root, fx, ea, iter] = falsePosition(func, xl, xu, es, maxit, varargin)
+' function [root, fx, ea, iter] = falsePosition(func, xl, xu, es, maxit, varargin)
 if nargin<3
     error('please input a function, lower limit, upper limit, relative error, max iteration')
 elseif  nargin<4
@@ -89,7 +89,7 @@ else
 end
 end
 fx=fxr;
-end' 
+end ' 
 
 ## Linear Algebra
 This algorithm 
