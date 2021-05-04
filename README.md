@@ -1,5 +1,5 @@
 # MECH105-Algorithms
-These are the algorithms I created for MECH105 using different numerical methods this semsester. Each algorithm is held in its own folder in the main directory.
+These are the algorithms I created for MECH105 using different numerical methods this semsester. Each algorithm is held in its own folder in the main directory along with a README file that describes the algorithm, its limitations and its inputs and outputs.
 
 ## Binary Converter 
 This algorithm takes a base10 input number and converts that into a string of binary equivelent to the input variable. 
